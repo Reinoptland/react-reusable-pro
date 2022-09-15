@@ -25,10 +25,14 @@ export default function ProductCard(props) {
         kan gebruiken (net als normale HTML)
       */}
 
+      <BetterButton onClick={props.addToCart} disabled={true}>
+        Add to Cart
+      </BetterButton>
+
       <BetterButton
         onClick={props.addToCart}
         disabled={true}
-        style={{ backgroundColor: "green" }}
+        variant="secondary"
       >
         Add to Cart
       </BetterButton>

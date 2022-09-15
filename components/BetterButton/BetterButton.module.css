@@ -1,0 +1,12 @@
+.btn {
+  padding: 10px 30px;
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+/* Secondary ziet er anders uit */
+.secondary {
+  background-color: aqua;
+  color: black;
+}
